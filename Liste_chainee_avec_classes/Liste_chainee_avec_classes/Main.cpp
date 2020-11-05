@@ -5,6 +5,6 @@ using namespace std;
 
 
 int main() {
-	ajouter();
-	afficher(Chainlist::premier);
+	Chainlist:: ajouter();
+	Chainlist::afficher(Chainlist::getpremier());
 }
